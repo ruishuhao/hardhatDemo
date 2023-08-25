@@ -1,0 +1,26 @@
+{
+  "name": "hardhatdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "mocha": {
+    "timeout": "150000"
+  },
+  "keywords": [
+    "testing",
+    "Mocha"
+  ],
+  "author": "Rena",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "superagent": "^8.1.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.1"
+  }
+}
